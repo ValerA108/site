@@ -1,0 +1,21 @@
+/* .masonry-layout {
+  column-count: 4;
+  column-gap: 0;
+/* }* */
+
+.masonry-layout__panel {
+  break-inside: avoid;
+  padding: 5px;
+}
+
+.masonry-layout__panel-content {
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.masonry-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: masonry;
+}
